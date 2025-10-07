@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color: white;
+    --larg: 100dvw;
+    --hight: 100dvh;
+    --line: 1.5;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    /* 10px */
+    font-size: 62.5%;
+}
+
+body{
+    color: var(--color);
+    line-height: var(--line);
+    width: var(--larg);
+    height: var(--hight);
+    font-family: "Montserrat";
+        background-image: url(./img/tasha-kostyuk-s_yJmYW71Q8-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
